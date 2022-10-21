@@ -1,0 +1,67 @@
+body {
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.hero {
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1602057512587-76d5cc4b34e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    font-size: larger;
+    height: 500px;
+    justify-content: center;
+}
+
+h2 {
+    background: #14213d;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+.activities {
+    background: #fca311;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+    margin: 0px;
+    padding: 5px 10px;
+}
+
+#h3 {
+    font-weight: bold;
+}
+
+#act {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.act {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 30px auto 0px auto;
+}
+
+.guide {
+    background: white;
+    border: 5px solid #14213d;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    padding: 20px 0px;
+    width: 500px;
+}
+
+#avatar {
+    border: 5px solid #e5e5e5;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+}
